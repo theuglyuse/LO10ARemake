@@ -1,14 +1,27 @@
-*   a5f6eb8 (HEAD -> main) Merge branch 'specialMouse'
+* 4c9e1fa (HEAD -> main, origin/main, origin/HEAD) Merged positionChangeOne and positionChangeTwo and resolved conflicts
+*   5182450 Merged positionChangeOne and positionChangeTwo and resolved conflicts
 |\  
-| * e91bd1c (origin/specialMouse, specialMouse) Created a white special mouse ~Kaiden
+| * 8e777f1 (positionChangeTwo) Change it so the cat chases the mouses from left to right
+* | c326eaa (positionChangeOne) Changed the mouse, special mouse, and cat position where the cat is chasing the mouse from right to left
 |/  
-*   c7be940 Merge branch 'addmouse'
+*   f9207ba Merged changes for cat
 |\  
-| * dc98035 (origin/addmouse, addmouse) Changed Squeek to EEEK ~Kaiden
-| * 79add34 branch and Mouse added ~Kaiden
-* | 407affd (origin/catears, catears) added ears ~Kaiden
+| * 0811cd2 (changeCatMouseTwo) Changed Cat color to blue and whiskers to 2 and changed mouse body length and height by -10
+* | e78fcc3 Changed Color of Cat and Changed body length and height
 |/  
-* b3dd9b5 (origin/main) Updated Draw method to draw whiskers
+*   1736b93 Merge pull request #1 from theuglyuse/specialMouse
+|\  
+| * bbcdd51 Fixed mouse and special mouse not showing ~Kaiden
+| * e91bd1c Created a white special mouse ~Kaiden
+| *   c7be940 Merge branch 'addmouse'
+| |\  
+| | * dc98035 Changed Squeek to EEEK ~Kaiden
+| | * 79add34 branch and Mouse added ~Kaiden
+| * | 407affd added ears ~Kaiden
+| |/  
+* / dadccd7 Create mylog.txt
+|/  
+* b3dd9b5 Updated Draw method to draw whiskers
 * fcfcc10 Created private member types for whiskers
 * 53f822a This reverts commit 1a443c6aad7ff087a2588abff1835172fd57d13d.
 * 1a443c6 Added whiskers to cat
