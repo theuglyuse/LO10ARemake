@@ -1,0 +1,16 @@
+*   a5f6eb8 (HEAD -> main) Merge branch 'specialMouse'
+|\  
+| * e91bd1c (origin/specialMouse, specialMouse) Created a white special mouse ~Kaiden
+|/  
+*   c7be940 Merge branch 'addmouse'
+|\  
+| * dc98035 (origin/addmouse, addmouse) Changed Squeek to EEEK ~Kaiden
+| * 79add34 branch and Mouse added ~Kaiden
+* | 407affd (origin/catears, catears) added ears ~Kaiden
+|/  
+* b3dd9b5 (origin/main) Updated Draw method to draw whiskers
+* fcfcc10 Created private member types for whiskers
+* 53f822a This reverts commit 1a443c6aad7ff087a2588abff1835172fd57d13d.
+* 1a443c6 Added whiskers to cat
+* 8afab91 Delete =2.6.0
+* 9d7738e first commit
