@@ -23,7 +23,7 @@ public class Cat {
 	// whiskers are about 1/4 the size of the head
 	private static final int WHISKER_LENGTH = HEAD_DIMENSION/4;
 	private static final int WHISKER_SLANT = 5;
-	private static final int NUM_WHISKERS = 3;
+	private static final int NUM_WHISKERS = 4;
 	
 	// ears
 	private static final int EAR_SIZE = HEAD_DIMENSION/5;
@@ -35,7 +35,7 @@ public class Cat {
 		int x=catX;
 		int y=catY;
 		// Draw the head
-		g2.setColor(Color.black);
+		g2.setColor(Color.orange);
 		g2.fillOval(x, y, HEAD_DIMENSION, HEAD_DIMENSION);
 		// Draw the eyes
 		g2.setColor(Color.green);

@@ -3,8 +3,8 @@ import java.awt.Graphics;
 import java.awt.Graphics2D;
 
 public class Mouse {
-	private static final int BODY_LENGTH = 50;
-	private static final int BODY_HEIGHT = 20;
+	private static final int BODY_LENGTH = 60;
+	private static final int BODY_HEIGHT = 30;
 	private static final int TAIL_LENGTH = 40;
 	public void draw(Graphics g, int mouseX, int mouseY)
 	{
