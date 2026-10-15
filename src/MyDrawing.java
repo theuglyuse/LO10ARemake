@@ -18,9 +18,15 @@ public class MyDrawing extends JPanel {
 	// paintComponent is called automatically when the frame needs
 	// to display (e.g., when the program starts)
 	public void paintComponent(Graphics g) {
+<<<<<<< .merge_file_CtaaK8
 		cat.draw(g, 240, 150);
 		mouse.draw(g, 50, 200);
 		sm.draw(g, 150, 200);
+=======
+		cat.draw(g, 50, 150);
+		mouse.draw(g, 150, 200);
+		sm.draw(g, 230, 220);
+>>>>>>> .merge_file_cLfAlZ
 	}
 	
 	/**
