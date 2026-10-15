@@ -25,6 +25,9 @@ public class Cat {
 	private static final int WHISKER_SLANT = 5;
 	private static final int NUM_WHISKERS = 3;
 	
+	// ears
+	private static final int EAR_SIZE = HEAD_DIMENSION/5;
+	
 	// draw will render the Cat on the Graphics object
 	public void draw(Graphics g, int catX, int catY)
 	{
@@ -67,6 +70,7 @@ public class Cat {
 			g2.drawLine(x, y, x2, y2);
 			y2 += WHISKER_SLANT; 			
 		}
+		
 		// Draw whiskers on the right of face, y stays the same
 		x = catX + MOUTH_X + MOUTH_WIDTH + 2;
 		x2 = x + WHISKER_LENGTH; 
@@ -76,6 +80,26 @@ public class Cat {
 			g2.drawLine(x, y, x2, y2);
 			y2 += WHISKER_SLANT; 			
 		}
+		
+		// Add ears
+		g2.setColor(Color.LIGHT_GRAY);
+		// Draw left side of left ear
+		x = catX + HEAD_DIMENSION/5;
+		x2 = x + EAR_SIZE/2;
+		y = catY + HEAD_DIMENSION/5;
+		y2 = y - EAR_SIZE;
+		g2.drawLine(x, y, x2, y2);
+		// Draw right side of right ear
+		// Note that we reverse x/x2 and y/y2
+		x = x2 + EAR_SIZE/2;
+		g2.drawLine(x2, y2, x, y);
+		// Draw left side of right ear
+		x += HEAD_DIMENSION/5;
+		x2 = x + EAR_SIZE/2;
+		g2.drawLine(x2, y2, x, y);
+		// Draw right side of right ear
+		x = x2 + EAR_SIZE/2;
+		g2.drawLine(x2, y2, x, y);
 		
 	}
 }
